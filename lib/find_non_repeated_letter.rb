@@ -9,7 +9,7 @@
       return str[i]
       #then that character is of course non repeated, so return that
      elsif str[i] != str[i + 1] && str[i] != str[i - 1]
-     #otherwise, if character being checked is NOT the same as the character before OR after it
+     #otherwise, if character i is NOT the same as the character after it AND character i is not the same as the character after before it
        return str[i]
        #then it is nonrepeated, so return that character
      else 
